@@ -1,8 +1,9 @@
-.App {
-  text-align: center;
+.App {  
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +36,34 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* #root {
+  width: 100vw;
+  height: 100vh;
+} */
+
+.conteiner {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  min-height: 100vh;
+}
+
+.inputHex {
+  background-color: white;
+  width: 10em;
+  height: 2em;
+  color: black; 
+  text-align: center;
+}
+
+.resultRgb {
+  height: 2em;
+  width: 8.67em;
+  border: 2px solid black;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  margin-top: 2px;
 }
